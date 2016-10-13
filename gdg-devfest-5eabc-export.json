@@ -1,0 +1,547 @@
+{
+  "nicknames" : [ "O'Boss", "O'Capiton", "O'Malament", "O'Drogat", "O'Rannat", "O'Russ", "O Pazz", "O Zellus", "U Scurnacchiat", "O'Track", "O'Bell", "O'Brutt", "A'Carogna", "O'Clock", "O'Ribell", "O'Fess", "O'Stuort", "O'Zuopp", "O'Luong", "O'Curt", "O'Biond", "O'Mast", "O'Mancin", "O'Big", "O'Quaquaraqua", "L'Omm d'onore", "O'Zuzzus", "O'Raffinat", "O'Dottor", "O'Filosf", "Rivoltella", "O'Fierr", "Cap i bomb", "O'Mastin", "O'Sor'c", "O'Spagnol", "O'Mbriac", "O'Chiatt", "O'Sicc", "A'Gatta", "O'Can", "O'Nnammurat", "O'Bucìard", "O'Pesatur", "L'Auciello", "Pulecenella", "O'Pizzaiuol", "O'Mustacc", "O'Prevt", "L'Acquaiuolo", "A Curnacchia", "O'Piccirill", "O'Padron i cas", "O'Furnajo", "Pan e Murtadella", "Sasicc e friarielli", "O'Tenent", "O'Mariuol", "O'Pulit", "O'Spuorc", "O'Poliziott", "O'Nir", "Baffone", "O'Pelos", "A'Sfugliatella", "O'Cafè", "A'Granit", "O'Gelataio", "A Zuppett" ],
+  "quizzes" : [ {
+    "closed" : true,
+    "currentQuestion" : 0,
+    "done" : false,
+    "name" : "DevFest",
+    "questions" : [ {
+      "answers" : [ "in grado di fare calcoli algebrici, binari e logici", "statica e conservativa", "gestita dalle periferiche", "rumorosa e caciarona" ],
+      "correctAnwser" : 1,
+      "question" : "La memoria di massa è",
+      "re" : 27,
+      "remainingTime" : 0,
+      "started" : false,
+      "userAnswers" : {
+        "3RpCPP8qrtaThwbhPpgGkkUiUoh2" : "2",
+        "59DaUKH1dac4uSH9XsmrtwmPYEp1" : "1",
+        "7MNbSljks6VEXoZKyU5mGln6DEk2" : "1",
+        "CST07ojTkhQ2gOOcZyGp04puipf1" : "1",
+        "DD2ZXCTvO3dA7tmjJXJMLbT8rWm1" : "1",
+        "FdUW45WG63bDcTBq6qeRFLMw7Rj1" : "2",
+        "Gy11C6iwBkRUA4ne3L9PLNG78wt2" : "1",
+        "Ix0o5zwABtaRRFQq7xCaq3Ba01B3" : "2",
+        "Kb5A0X35EqaD9VUiUynkuA1ybTe2" : "3",
+        "TH0RuLGdoSZWqDclMxsV8tr24zf1" : "1",
+        "WXU31anlZkczgdjz3YJwu5rJ7Dl1" : "1",
+        "Y9psCW2cw2hvkbydrZwjRACwKV22" : "1",
+        "ZOQEJRgXfvZ90fHC1sVqRnuqJ7y2" : "3",
+        "djReoMDD89UeIuW1IT7w7x2TT8F3" : "1",
+        "eW8xpZmUdYVy3cH6D31HeTBgjOv1" : "2",
+        "fXpdECK0ZbaLw0FjSlEqyZ5A8vM2" : "2",
+        "hIHZUYokJRd9WqIeiwWRVolVYso1" : "1",
+        "jblygTB8TXPOiKAau6pXs0WDKkd2" : "1",
+        "kXpGdUKtlyOUqDj6SE0IjG3GEHk2" : "1",
+        "l7pmLDxhg7SrgcVoccmMnOMiU4j1" : "1",
+        "lg8vEUHenWdDCZgyeHA3ZiSqYHD3" : "1",
+        "mgzy7MaccsPoCCLNbzcyy9b4O4O2" : "2",
+        "nMMPmY79yZXnvccu6U8UHphvkif1" : "1",
+        "qtMme69YjQTyogCSweD3vgjrczS2" : "1",
+        "rDimQe8vslcnfxJADaUJ2GF4egO2" : "1",
+        "t4Xvdyyy2EVnZz2VIUy75mSLOR12" : "1",
+        "tURveFsmYaSNewBMrij6jPHwlv33" : "1",
+        "tjKVL6yrGyMKJfpDpGcqwpRnDVi1" : "1",
+        "vjtYibNdIOVwTcucakM8Pq0Dv3q1" : "1",
+        "vpPtsI2ebETT2GK68uYmGNbwfy13" : "1",
+        "vy0VkoUxQmQxyIm4UseZEeuafj83" : "1"
+      }
+    }, {
+      "answers" : [ "Freeware", "Public Domain", "Shareware", "Open Source" ],
+      "correctAnwser" : 2,
+      "question" : "Quali fra i seguenti software non è gratuito?",
+      "remainingTime" : 0,
+      "started" : false,
+      "userAnswers" : {
+        "3RpCPP8qrtaThwbhPpgGkkUiUoh2" : "2",
+        "59DaUKH1dac4uSH9XsmrtwmPYEp1" : "2",
+        "7MNbSljks6VEXoZKyU5mGln6DEk2" : "2",
+        "CST07ojTkhQ2gOOcZyGp04puipf1" : "1",
+        "DD2ZXCTvO3dA7tmjJXJMLbT8rWm1" : "2",
+        "FdUW45WG63bDcTBq6qeRFLMw7Rj1" : "2",
+        "Gy11C6iwBkRUA4ne3L9PLNG78wt2" : "2",
+        "Ix0o5zwABtaRRFQq7xCaq3Ba01B3" : "2",
+        "Kb5A0X35EqaD9VUiUynkuA1ybTe2" : "1",
+        "TH0RuLGdoSZWqDclMxsV8tr24zf1" : "2",
+        "WXU31anlZkczgdjz3YJwu5rJ7Dl1" : "1",
+        "Y9psCW2cw2hvkbydrZwjRACwKV22" : "2",
+        "ZOQEJRgXfvZ90fHC1sVqRnuqJ7y2" : "2",
+        "djReoMDD89UeIuW1IT7w7x2TT8F3" : "2",
+        "eW8xpZmUdYVy3cH6D31HeTBgjOv1" : "1",
+        "fXpdECK0ZbaLw0FjSlEqyZ5A8vM2" : "2",
+        "hIHZUYokJRd9WqIeiwWRVolVYso1" : "2",
+        "jblygTB8TXPOiKAau6pXs0WDKkd2" : "2",
+        "kXpGdUKtlyOUqDj6SE0IjG3GEHk2" : "2",
+        "lg8vEUHenWdDCZgyeHA3ZiSqYHD3" : "2",
+        "mgzy7MaccsPoCCLNbzcyy9b4O4O2" : "1",
+        "nMMPmY79yZXnvccu6U8UHphvkif1" : "2",
+        "qtMme69YjQTyogCSweD3vgjrczS2" : "2",
+        "rDimQe8vslcnfxJADaUJ2GF4egO2" : "2",
+        "t4Xvdyyy2EVnZz2VIUy75mSLOR12" : "2",
+        "tURveFsmYaSNewBMrij6jPHwlv33" : "2",
+        "tjKVL6yrGyMKJfpDpGcqwpRnDVi1" : "2",
+        "vjtYibNdIOVwTcucakM8Pq0Dv3q1" : "2",
+        "vpPtsI2ebETT2GK68uYmGNbwfy13" : "2",
+        "vy0VkoUxQmQxyIm4UseZEeuafj83" : "2"
+      }
+    }, {
+      "answers" : [ "circa 700 megabyte", "al massimo 4 GB", "esattamente 1 GB", "meno di 1,4 megabyte" ],
+      "correctAnwser" : 0,
+      "question" : "Un CD-ROM può contenere",
+      "remainingTime" : 0,
+      "started" : false,
+      "userAnswers" : {
+        "3RpCPP8qrtaThwbhPpgGkkUiUoh2" : "0",
+        "59DaUKH1dac4uSH9XsmrtwmPYEp1" : "0",
+        "7MNbSljks6VEXoZKyU5mGln6DEk2" : "0",
+        "CST07ojTkhQ2gOOcZyGp04puipf1" : "0",
+        "DD2ZXCTvO3dA7tmjJXJMLbT8rWm1" : "0",
+        "FdUW45WG63bDcTBq6qeRFLMw7Rj1" : "1",
+        "Gy11C6iwBkRUA4ne3L9PLNG78wt2" : "0",
+        "Ix0o5zwABtaRRFQq7xCaq3Ba01B3" : "0",
+        "Kb5A0X35EqaD9VUiUynkuA1ybTe2" : "3",
+        "TH0RuLGdoSZWqDclMxsV8tr24zf1" : "0",
+        "WXU31anlZkczgdjz3YJwu5rJ7Dl1" : "0",
+        "Y9psCW2cw2hvkbydrZwjRACwKV22" : "0",
+        "ZOQEJRgXfvZ90fHC1sVqRnuqJ7y2" : "0",
+        "djReoMDD89UeIuW1IT7w7x2TT8F3" : "0",
+        "eW8xpZmUdYVy3cH6D31HeTBgjOv1" : "0",
+        "fXpdECK0ZbaLw0FjSlEqyZ5A8vM2" : "0",
+        "hIHZUYokJRd9WqIeiwWRVolVYso1" : "0",
+        "jblygTB8TXPOiKAau6pXs0WDKkd2" : "0",
+        "kXpGdUKtlyOUqDj6SE0IjG3GEHk2" : "0",
+        "lg8vEUHenWdDCZgyeHA3ZiSqYHD3" : "0",
+        "mgzy7MaccsPoCCLNbzcyy9b4O4O2" : "0",
+        "nMMPmY79yZXnvccu6U8UHphvkif1" : "0",
+        "qtMme69YjQTyogCSweD3vgjrczS2" : "0",
+        "rDimQe8vslcnfxJADaUJ2GF4egO2" : "0",
+        "tURveFsmYaSNewBMrij6jPHwlv33" : "0",
+        "tjKVL6yrGyMKJfpDpGcqwpRnDVi1" : "0",
+        "vjtYibNdIOVwTcucakM8Pq0Dv3q1" : "0",
+        "vpPtsI2ebETT2GK68uYmGNbwfy13" : "0",
+        "vy0VkoUxQmQxyIm4UseZEeuafj83" : "0"
+      }
+    }, {
+      "answers" : [ "www.antonio@maggiolieditore.com", "sole@maggioli.editore.com", "info@news@maggiolieditore.com", " Pamela_80@maggiolieditore.com" ],
+      "correctAnwser" : 2,
+      "question" : "Individua l’indirizzo email sicuramente errato",
+      "remainingTime" : 0,
+      "started" : false,
+      "userAnswers" : {
+        "3RpCPP8qrtaThwbhPpgGkkUiUoh2" : "0",
+        "59DaUKH1dac4uSH9XsmrtwmPYEp1" : "2",
+        "7MNbSljks6VEXoZKyU5mGln6DEk2" : "2",
+        "CST07ojTkhQ2gOOcZyGp04puipf1" : "2",
+        "DD2ZXCTvO3dA7tmjJXJMLbT8rWm1" : "0",
+        "FdUW45WG63bDcTBq6qeRFLMw7Rj1" : "2",
+        "Gy11C6iwBkRUA4ne3L9PLNG78wt2" : "2",
+        "Ix0o5zwABtaRRFQq7xCaq3Ba01B3" : "2",
+        "Kb5A0X35EqaD9VUiUynkuA1ybTe2" : "3",
+        "TH0RuLGdoSZWqDclMxsV8tr24zf1" : "1",
+        "WXU31anlZkczgdjz3YJwu5rJ7Dl1" : "2",
+        "Y9psCW2cw2hvkbydrZwjRACwKV22" : "0",
+        "ZOQEJRgXfvZ90fHC1sVqRnuqJ7y2" : "2",
+        "djReoMDD89UeIuW1IT7w7x2TT8F3" : "2",
+        "eW8xpZmUdYVy3cH6D31HeTBgjOv1" : "2",
+        "fXpdECK0ZbaLw0FjSlEqyZ5A8vM2" : "2",
+        "hIHZUYokJRd9WqIeiwWRVolVYso1" : "2",
+        "jblygTB8TXPOiKAau6pXs0WDKkd2" : "2",
+        "kXpGdUKtlyOUqDj6SE0IjG3GEHk2" : "2",
+        "lg8vEUHenWdDCZgyeHA3ZiSqYHD3" : "2",
+        "mgzy7MaccsPoCCLNbzcyy9b4O4O2" : "2",
+        "nMMPmY79yZXnvccu6U8UHphvkif1" : "2",
+        "qtMme69YjQTyogCSweD3vgjrczS2" : "0",
+        "rDimQe8vslcnfxJADaUJ2GF4egO2" : "2",
+        "t4Xvdyyy2EVnZz2VIUy75mSLOR12" : "2",
+        "tURveFsmYaSNewBMrij6jPHwlv33" : "2",
+        "tjKVL6yrGyMKJfpDpGcqwpRnDVi1" : "2",
+        "vjtYibNdIOVwTcucakM8Pq0Dv3q1" : "2",
+        "vpPtsI2ebETT2GK68uYmGNbwfy13" : "0",
+        "vy0VkoUxQmQxyIm4UseZEeuafj83" : "2"
+      }
+    }, {
+      "answers" : [ "Bill Gates", "Google", "Tim O'Reilly", "Bryan Cranston" ],
+      "correctAnwser" : 2,
+      "question" : "Chi ha inventato il termine Web 2.0?",
+      "remainingTime" : 0,
+      "started" : false,
+      "userAnswers" : {
+        "3RpCPP8qrtaThwbhPpgGkkUiUoh2" : "2",
+        "59DaUKH1dac4uSH9XsmrtwmPYEp1" : "2",
+        "7MNbSljks6VEXoZKyU5mGln6DEk2" : "2",
+        "CST07ojTkhQ2gOOcZyGp04puipf1" : "2",
+        "DD2ZXCTvO3dA7tmjJXJMLbT8rWm1" : "2",
+        "FdUW45WG63bDcTBq6qeRFLMw7Rj1" : "2",
+        "Gy11C6iwBkRUA4ne3L9PLNG78wt2" : "2",
+        "Ix0o5zwABtaRRFQq7xCaq3Ba01B3" : "2",
+        "Kb5A0X35EqaD9VUiUynkuA1ybTe2" : "0",
+        "TH0RuLGdoSZWqDclMxsV8tr24zf1" : "0",
+        "WXU31anlZkczgdjz3YJwu5rJ7Dl1" : "0",
+        "Y9psCW2cw2hvkbydrZwjRACwKV22" : "2",
+        "ZOQEJRgXfvZ90fHC1sVqRnuqJ7y2" : "3",
+        "djReoMDD89UeIuW1IT7w7x2TT8F3" : "2",
+        "eW8xpZmUdYVy3cH6D31HeTBgjOv1" : "2",
+        "fXpdECK0ZbaLw0FjSlEqyZ5A8vM2" : "2",
+        "hIHZUYokJRd9WqIeiwWRVolVYso1" : "2",
+        "jblygTB8TXPOiKAau6pXs0WDKkd2" : "2",
+        "kXpGdUKtlyOUqDj6SE0IjG3GEHk2" : "1",
+        "lg8vEUHenWdDCZgyeHA3ZiSqYHD3" : "3",
+        "mgzy7MaccsPoCCLNbzcyy9b4O4O2" : "2",
+        "qtMme69YjQTyogCSweD3vgjrczS2" : "1",
+        "tURveFsmYaSNewBMrij6jPHwlv33" : "2",
+        "tjKVL6yrGyMKJfpDpGcqwpRnDVi1" : "2",
+        "vjtYibNdIOVwTcucakM8Pq0Dv3q1" : "2",
+        "vpPtsI2ebETT2GK68uYmGNbwfy13" : "2",
+        "vy0VkoUxQmQxyIm4UseZEeuafj83" : "2"
+      }
+    }, {
+      "answers" : [ "application programming interface", "automatic platform information", "analogue partition ideology", "advanced protocol interface" ],
+      "correctAnwser" : 0,
+      "question" : "API è l'acronimo di",
+      "remainingTime" : 0,
+      "started" : false,
+      "userAnswers" : {
+        "3RpCPP8qrtaThwbhPpgGkkUiUoh2" : "0",
+        "59DaUKH1dac4uSH9XsmrtwmPYEp1" : "0",
+        "7MNbSljks6VEXoZKyU5mGln6DEk2" : "0",
+        "CST07ojTkhQ2gOOcZyGp04puipf1" : "0",
+        "DD2ZXCTvO3dA7tmjJXJMLbT8rWm1" : "0",
+        "FdUW45WG63bDcTBq6qeRFLMw7Rj1" : "0",
+        "Gy11C6iwBkRUA4ne3L9PLNG78wt2" : "0",
+        "Ix0o5zwABtaRRFQq7xCaq3Ba01B3" : "0",
+        "Kb5A0X35EqaD9VUiUynkuA1ybTe2" : "2",
+        "TH0RuLGdoSZWqDclMxsV8tr24zf1" : "0",
+        "WXU31anlZkczgdjz3YJwu5rJ7Dl1" : "0",
+        "Y9psCW2cw2hvkbydrZwjRACwKV22" : "0",
+        "ZOQEJRgXfvZ90fHC1sVqRnuqJ7y2" : "0",
+        "djReoMDD89UeIuW1IT7w7x2TT8F3" : "0",
+        "eW8xpZmUdYVy3cH6D31HeTBgjOv1" : "0",
+        "fXpdECK0ZbaLw0FjSlEqyZ5A8vM2" : "0",
+        "hIHZUYokJRd9WqIeiwWRVolVYso1" : "0",
+        "jblygTB8TXPOiKAau6pXs0WDKkd2" : "0",
+        "kXpGdUKtlyOUqDj6SE0IjG3GEHk2" : "0",
+        "lg8vEUHenWdDCZgyeHA3ZiSqYHD3" : "0",
+        "mgzy7MaccsPoCCLNbzcyy9b4O4O2" : "0",
+        "nMMPmY79yZXnvccu6U8UHphvkif1" : "0",
+        "qtMme69YjQTyogCSweD3vgjrczS2" : "0",
+        "rDimQe8vslcnfxJADaUJ2GF4egO2" : "0",
+        "t4Xvdyyy2EVnZz2VIUy75mSLOR12" : "0",
+        "tURveFsmYaSNewBMrij6jPHwlv33" : "0",
+        "tjKVL6yrGyMKJfpDpGcqwpRnDVi1" : "0",
+        "vjtYibNdIOVwTcucakM8Pq0Dv3q1" : "0",
+        "vpPtsI2ebETT2GK68uYmGNbwfy13" : "0",
+        "vy0VkoUxQmQxyIm4UseZEeuafj83" : "0"
+      }
+    }, {
+      "answers" : [ "1992", "1942", "1989", "1987" ],
+      "correctAnwser" : 2,
+      "question" : "Da che data è possibile parlare di Web?",
+      "remainingTime" : 0,
+      "started" : false,
+      "userAnswers" : {
+        "3RpCPP8qrtaThwbhPpgGkkUiUoh2" : "2",
+        "59DaUKH1dac4uSH9XsmrtwmPYEp1" : "2",
+        "7MNbSljks6VEXoZKyU5mGln6DEk2" : "0",
+        "CST07ojTkhQ2gOOcZyGp04puipf1" : "2",
+        "DD2ZXCTvO3dA7tmjJXJMLbT8rWm1" : "2",
+        "Gy11C6iwBkRUA4ne3L9PLNG78wt2" : "0",
+        "Ix0o5zwABtaRRFQq7xCaq3Ba01B3" : "2",
+        "Kb5A0X35EqaD9VUiUynkuA1ybTe2" : "1",
+        "TH0RuLGdoSZWqDclMxsV8tr24zf1" : "0",
+        "WXU31anlZkczgdjz3YJwu5rJ7Dl1" : "3",
+        "Y9psCW2cw2hvkbydrZwjRACwKV22" : "0",
+        "ZOQEJRgXfvZ90fHC1sVqRnuqJ7y2" : "0",
+        "djReoMDD89UeIuW1IT7w7x2TT8F3" : "2",
+        "eW8xpZmUdYVy3cH6D31HeTBgjOv1" : "1",
+        "fXpdECK0ZbaLw0FjSlEqyZ5A8vM2" : "1",
+        "hIHZUYokJRd9WqIeiwWRVolVYso1" : "0",
+        "jblygTB8TXPOiKAau6pXs0WDKkd2" : "2",
+        "kXpGdUKtlyOUqDj6SE0IjG3GEHk2" : "3",
+        "lg8vEUHenWdDCZgyeHA3ZiSqYHD3" : "3",
+        "mgzy7MaccsPoCCLNbzcyy9b4O4O2" : "1",
+        "nMMPmY79yZXnvccu6U8UHphvkif1" : "2",
+        "qtMme69YjQTyogCSweD3vgjrczS2" : "0",
+        "t4Xvdyyy2EVnZz2VIUy75mSLOR12" : "2",
+        "tURveFsmYaSNewBMrij6jPHwlv33" : "0",
+        "tjKVL6yrGyMKJfpDpGcqwpRnDVi1" : "0",
+        "vjtYibNdIOVwTcucakM8Pq0Dv3q1" : "0",
+        "vpPtsI2ebETT2GK68uYmGNbwfy13" : "0",
+        "vy0VkoUxQmQxyIm4UseZEeuafj83" : "0"
+      }
+    }, {
+      "answers" : [ "Uno script di un ragazzo bulgaro che tiene traccia dell'evoluzione di un sito web", "Una filosofia di vita", "Un commento metafisico sull'esistenza", "Una rappresentazione formale, condivisa ed esplicita di una concettualizzazione di un dominio di interesse" ],
+      "correctAnwser" : 3,
+      "question" : "Nell'ambito dell'informatica, che cos'è l'ontologia?",
+      "remainingTime" : 0,
+      "started" : false,
+      "userAnswers" : {
+        "3RpCPP8qrtaThwbhPpgGkkUiUoh2" : "3",
+        "59DaUKH1dac4uSH9XsmrtwmPYEp1" : "3",
+        "7MNbSljks6VEXoZKyU5mGln6DEk2" : "3",
+        "CST07ojTkhQ2gOOcZyGp04puipf1" : "3",
+        "DD2ZXCTvO3dA7tmjJXJMLbT8rWm1" : "3",
+        "FdUW45WG63bDcTBq6qeRFLMw7Rj1" : "3",
+        "Gy11C6iwBkRUA4ne3L9PLNG78wt2" : "3",
+        "Ix0o5zwABtaRRFQq7xCaq3Ba01B3" : "3",
+        "Kb5A0X35EqaD9VUiUynkuA1ybTe2" : "0",
+        "TH0RuLGdoSZWqDclMxsV8tr24zf1" : "3",
+        "WXU31anlZkczgdjz3YJwu5rJ7Dl1" : "3",
+        "Y9psCW2cw2hvkbydrZwjRACwKV22" : "1",
+        "ZOQEJRgXfvZ90fHC1sVqRnuqJ7y2" : "3",
+        "djReoMDD89UeIuW1IT7w7x2TT8F3" : "3",
+        "eW8xpZmUdYVy3cH6D31HeTBgjOv1" : "3",
+        "fXpdECK0ZbaLw0FjSlEqyZ5A8vM2" : "3",
+        "hIHZUYokJRd9WqIeiwWRVolVYso1" : "3",
+        "jblygTB8TXPOiKAau6pXs0WDKkd2" : "3",
+        "kXpGdUKtlyOUqDj6SE0IjG3GEHk2" : "3",
+        "lg8vEUHenWdDCZgyeHA3ZiSqYHD3" : "3",
+        "mgzy7MaccsPoCCLNbzcyy9b4O4O2" : "3",
+        "nMMPmY79yZXnvccu6U8UHphvkif1" : "1",
+        "qtMme69YjQTyogCSweD3vgjrczS2" : "1",
+        "rDimQe8vslcnfxJADaUJ2GF4egO2" : "3",
+        "tURveFsmYaSNewBMrij6jPHwlv33" : "3",
+        "tjKVL6yrGyMKJfpDpGcqwpRnDVi1" : "3",
+        "vjtYibNdIOVwTcucakM8Pq0Dv3q1" : "3",
+        "vpPtsI2ebETT2GK68uYmGNbwfy13" : "3",
+        "vy0VkoUxQmQxyIm4UseZEeuafj83" : "3"
+      }
+    }, {
+      "answers" : [ "Un virus che cripta i files", "Un certificato di sicurezza", "Un codice di sicurezza per accedere alla RAM", "Algoritmo di crittografia asimmetrica" ],
+      "correctAnwser" : 0,
+      "question" : "Cos'è un RSA-4096 Ransomware",
+      "remainingTime" : 0,
+      "started" : true,
+      "userAnswers" : {
+        "3RpCPP8qrtaThwbhPpgGkkUiUoh2" : "3",
+        "59DaUKH1dac4uSH9XsmrtwmPYEp1" : "0",
+        "7MNbSljks6VEXoZKyU5mGln6DEk2" : "0",
+        "CST07ojTkhQ2gOOcZyGp04puipf1" : "0",
+        "DD2ZXCTvO3dA7tmjJXJMLbT8rWm1" : "0",
+        "FdUW45WG63bDcTBq6qeRFLMw7Rj1" : "0",
+        "Gy11C6iwBkRUA4ne3L9PLNG78wt2" : "0",
+        "Ix0o5zwABtaRRFQq7xCaq3Ba01B3" : "0",
+        "Kb5A0X35EqaD9VUiUynkuA1ybTe2" : "2",
+        "TH0RuLGdoSZWqDclMxsV8tr24zf1" : "0",
+        "WXU31anlZkczgdjz3YJwu5rJ7Dl1" : "0",
+        "Y9psCW2cw2hvkbydrZwjRACwKV22" : "0",
+        "ZOQEJRgXfvZ90fHC1sVqRnuqJ7y2" : "0",
+        "djReoMDD89UeIuW1IT7w7x2TT8F3" : "0",
+        "eW8xpZmUdYVy3cH6D31HeTBgjOv1" : "0",
+        "fXpdECK0ZbaLw0FjSlEqyZ5A8vM2" : "0",
+        "hIHZUYokJRd9WqIeiwWRVolVYso1" : "0",
+        "jblygTB8TXPOiKAau6pXs0WDKkd2" : "0",
+        "kXpGdUKtlyOUqDj6SE0IjG3GEHk2" : "0",
+        "lg8vEUHenWdDCZgyeHA3ZiSqYHD3" : "3",
+        "mgzy7MaccsPoCCLNbzcyy9b4O4O2" : "0",
+        "nMMPmY79yZXnvccu6U8UHphvkif1" : "0",
+        "qtMme69YjQTyogCSweD3vgjrczS2" : "0",
+        "rDimQe8vslcnfxJADaUJ2GF4egO2" : "0",
+        "t4Xvdyyy2EVnZz2VIUy75mSLOR12" : "1",
+        "tURveFsmYaSNewBMrij6jPHwlv33" : "0",
+        "tjKVL6yrGyMKJfpDpGcqwpRnDVi1" : "3",
+        "vjtYibNdIOVwTcucakM8Pq0Dv3q1" : "0",
+        "vpPtsI2ebETT2GK68uYmGNbwfy13" : "3",
+        "vy0VkoUxQmQxyIm4UseZEeuafj83" : "0"
+      }
+    }, {
+      "answers" : [ "Non c'è l'erba", "Con droni specializzati nel giardinaggio", "Con delle mucche", "Con delle pecore" ],
+      "correctAnwser" : 3,
+      "question" : "Come viene rasata l'erba dei campi che circondano la sede di Mountain View?",
+      "remainingTime" : 0,
+      "started" : false,
+      "userAnswers" : {
+        "3RpCPP8qrtaThwbhPpgGkkUiUoh2" : "0",
+        "59DaUKH1dac4uSH9XsmrtwmPYEp1" : "0",
+        "7MNbSljks6VEXoZKyU5mGln6DEk2" : "0",
+        "CST07ojTkhQ2gOOcZyGp04puipf1" : "1",
+        "DD2ZXCTvO3dA7tmjJXJMLbT8rWm1" : "1",
+        "Gy11C6iwBkRUA4ne3L9PLNG78wt2" : "1",
+        "Ix0o5zwABtaRRFQq7xCaq3Ba01B3" : "3",
+        "Kb5A0X35EqaD9VUiUynkuA1ybTe2" : "1",
+        "TH0RuLGdoSZWqDclMxsV8tr24zf1" : "2",
+        "WXU31anlZkczgdjz3YJwu5rJ7Dl1" : "1",
+        "Y9psCW2cw2hvkbydrZwjRACwKV22" : "1",
+        "ZOQEJRgXfvZ90fHC1sVqRnuqJ7y2" : "2",
+        "djReoMDD89UeIuW1IT7w7x2TT8F3" : "1",
+        "eW8xpZmUdYVy3cH6D31HeTBgjOv1" : "1",
+        "fXpdECK0ZbaLw0FjSlEqyZ5A8vM2" : "0",
+        "hIHZUYokJRd9WqIeiwWRVolVYso1" : "1",
+        "jblygTB8TXPOiKAau6pXs0WDKkd2" : "1",
+        "kXpGdUKtlyOUqDj6SE0IjG3GEHk2" : "0",
+        "mgzy7MaccsPoCCLNbzcyy9b4O4O2" : "1",
+        "nMMPmY79yZXnvccu6U8UHphvkif1" : "2",
+        "qtMme69YjQTyogCSweD3vgjrczS2" : "1",
+        "rDimQe8vslcnfxJADaUJ2GF4egO2" : "0",
+        "t4Xvdyyy2EVnZz2VIUy75mSLOR12" : "0",
+        "tURveFsmYaSNewBMrij6jPHwlv33" : "3",
+        "tjKVL6yrGyMKJfpDpGcqwpRnDVi1" : "0",
+        "vjtYibNdIOVwTcucakM8Pq0Dv3q1" : "3",
+        "vpPtsI2ebETT2GK68uYmGNbwfy13" : "0",
+        "vy0VkoUxQmQxyIm4UseZEeuafj83" : "0"
+      }
+    } ],
+    "started" : false,
+    "users" : {
+      "-KTxgkFeVA3vDmYU1bCl" : "l7pmLDxhg7SrgcVoccmMnOMiU4j1",
+      "-KTxgmS3VrfN-9bFaOS7" : "eW8xpZmUdYVy3cH6D31HeTBgjOv1",
+      "-KTxgnpszSExX19EvkUn" : "vy0VkoUxQmQxyIm4UseZEeuafj83",
+      "-KTxgqDanUdqGcYSvwtV" : "TH0RuLGdoSZWqDclMxsV8tr24zf1",
+      "-KTxgqsQO0WcD2iSRuo4" : "Kb5A0X35EqaD9VUiUynkuA1ybTe2",
+      "-KTxgreLy4YhUwa01TDw" : "DD2ZXCTvO3dA7tmjJXJMLbT8rWm1",
+      "-KTxgsfq-4otBV4Bup3g" : "t4Xvdyyy2EVnZz2VIUy75mSLOR12",
+      "-KTxguMLoPX2XY_C77F2" : "nMMPmY79yZXnvccu6U8UHphvkif1",
+      "-KTxgw3ELDGTG2unUcGV" : "vpPtsI2ebETT2GK68uYmGNbwfy13",
+      "-KTxgwO6RXXN-2IHZnot" : "tURveFsmYaSNewBMrij6jPHwlv33",
+      "-KTxgxFdv5BROwp0BidX" : "djReoMDD89UeIuW1IT7w7x2TT8F3",
+      "-KTxgz-WlTLf54l1788s" : "hIHZUYokJRd9WqIeiwWRVolVYso1",
+      "-KTxgzTtUQGBdHtNglLz" : "ZOQEJRgXfvZ90fHC1sVqRnuqJ7y2",
+      "-KTxh-Nv97GaZtkidQqu" : "CST07ojTkhQ2gOOcZyGp04puipf1",
+      "-KTxh1jOB-SutRQrUfZQ" : "Ix0o5zwABtaRRFQq7xCaq3Ba01B3",
+      "-KTxh7-2I1rmn7OOuo7c" : "kXpGdUKtlyOUqDj6SE0IjG3GEHk2",
+      "-KTxh8-35KvXOu3BypCu" : "Gy11C6iwBkRUA4ne3L9PLNG78wt2",
+      "-KTxhFXj6Yiq8mnL7Qvl" : "Y9psCW2cw2hvkbydrZwjRACwKV22",
+      "-KTxhH-MBH8kBISxOqAk" : "qtMme69YjQTyogCSweD3vgjrczS2",
+      "-KTxhIbivvdBcv1O1L8k" : "mgzy7MaccsPoCCLNbzcyy9b4O4O2",
+      "-KTxhIiJV4e1VdgpUfGt" : "lg8vEUHenWdDCZgyeHA3ZiSqYHD3",
+      "-KTxhqmLO2i0L33zwLoT" : "jblygTB8TXPOiKAau6pXs0WDKkd2",
+      "-KTxi8htSiRjjmkr0_w7" : "3RpCPP8qrtaThwbhPpgGkkUiUoh2",
+      "-KTxi9wgvf44yt5CCmHR" : "59DaUKH1dac4uSH9XsmrtwmPYEp1",
+      "-KTxiGK0UxkquQP9gfpk" : "WXU31anlZkczgdjz3YJwu5rJ7Dl1",
+      "-KTxiHrhAmQJw7GKK8sJ" : "vjtYibNdIOVwTcucakM8Pq0Dv3q1",
+      "-KTxiIl2OngIXd_McC5N" : "fXpdECK0ZbaLw0FjSlEqyZ5A8vM2",
+      "-KTxiJ6hpcWqPgLLNTQs" : "7MNbSljks6VEXoZKyU5mGln6DEk2",
+      "-KTxiJbR2w076Z8iL8_d" : "rDimQe8vslcnfxJADaUJ2GF4egO2",
+      "-KTxiNNiUBjgzNrUtp9C" : "tjKVL6yrGyMKJfpDpGcqwpRnDVi1",
+      "-KTxiVRujT-0rtuEKe2o" : "FdUW45WG63bDcTBq6qeRFLMw7Rj1"
+    },
+    "winner" : "vjtYibNdIOVwTcucakM8Pq0Dv3q1"
+  } ],
+  "users" : {
+    "3RpCPP8qrtaThwbhPpgGkkUiUoh2" : {
+      "nickname" : 10,
+      "score" : 13
+    },
+    "59DaUKH1dac4uSH9XsmrtwmPYEp1" : {
+      "nickname" : 7,
+      "score" : 22
+    },
+    "7MNbSljks6VEXoZKyU5mGln6DEk2" : {
+      "nickname" : 20,
+      "score" : 19
+    },
+    "CST07ojTkhQ2gOOcZyGp04puipf1" : {
+      "nickname" : 23,
+      "score" : 19
+    },
+    "DD2ZXCTvO3dA7tmjJXJMLbT8rWm1" : {
+      "nickname" : 9,
+      "score" : 19
+    },
+    "FdUW45WG63bDcTBq6qeRFLMw7Rj1" : {
+      "nickname" : 12,
+      "score" : 14
+    },
+    "Gy11C6iwBkRUA4ne3L9PLNG78wt2" : {
+      "nickname" : 25,
+      "score" : 19
+    },
+    "Ix0o5zwABtaRRFQq7xCaq3Ba01B3" : {
+      "nickname" : 12,
+      "score" : 22
+    },
+    "Kb5A0X35EqaD9VUiUynkuA1ybTe2" : {
+      "nickname" : 0,
+      "score" : -5
+    },
+    "TH0RuLGdoSZWqDclMxsV8tr24zf1" : {
+      "nickname" : 5,
+      "score" : 13
+    },
+    "WXU31anlZkczgdjz3YJwu5rJ7Dl1" : {
+      "nickname" : 5,
+      "score" : 13
+    },
+    "Y9psCW2cw2hvkbydrZwjRACwKV22" : {
+      "nickname" : 1,
+      "score" : 13
+    },
+    "ZOQEJRgXfvZ90fHC1sVqRnuqJ7y2" : {
+      "nickname" : 15,
+      "score" : 13
+    },
+    "djReoMDD89UeIuW1IT7w7x2TT8F3" : {
+      "nickname" : 16,
+      "score" : 22
+    },
+    "eW8xpZmUdYVy3cH6D31HeTBgjOv1" : {
+      "nickname" : 2,
+      "score" : 13
+    },
+    "fXpdECK0ZbaLw0FjSlEqyZ5A8vM2" : {
+      "nickname" : 14,
+      "score" : 16
+    },
+    "hIHZUYokJRd9WqIeiwWRVolVYso1" : {
+      "nickname" : 22,
+      "score" : 19
+    },
+    "jblygTB8TXPOiKAau6pXs0WDKkd2" : {
+      "nickname" : 24,
+      "score" : 22
+    },
+    "kXpGdUKtlyOUqDj6SE0IjG3GEHk2" : {
+      "nickname" : 21,
+      "score" : 16
+    },
+    "l7pmLDxhg7SrgcVoccmMnOMiU4j1" : {
+      "nickname" : 3,
+      "score" : 2.5
+    },
+    "lg8vEUHenWdDCZgyeHA3ZiSqYHD3" : {
+      "nickname" : 21,
+      "score" : 13.5
+    },
+    "mgzy7MaccsPoCCLNbzcyy9b4O4O2" : {
+      "nickname" : 8,
+      "score" : 13
+    },
+    "nMMPmY79yZXnvccu6U8UHphvkif1" : {
+      "nickname" : 13,
+      "score" : 16.5
+    },
+    "qtMme69YjQTyogCSweD3vgjrczS2" : {
+      "nickname" : 11,
+      "score" : 10
+    },
+    "rDimQe8vslcnfxJADaUJ2GF4egO2" : {
+      "nickname" : 17,
+      "score" : 17
+    },
+    "t4Xvdyyy2EVnZz2VIUy75mSLOR12" : {
+      "nickname" : 4,
+      "score" : 11.5
+    },
+    "tURveFsmYaSNewBMrij6jPHwlv33" : {
+      "nickname" : 15,
+      "score" : 22
+    },
+    "tjKVL6yrGyMKJfpDpGcqwpRnDVi1" : {
+      "nickname" : 19,
+      "score" : 16
+    },
+    "vjtYibNdIOVwTcucakM8Pq0Dv3q1" : {
+      "nickname" : 18,
+      "score" : 22
+    },
+    "vpPtsI2ebETT2GK68uYmGNbwfy13" : {
+      "nickname" : 6,
+      "score" : 13
+    },
+    "vy0VkoUxQmQxyIm4UseZEeuafj83" : {
+      "nickname" : 6,
+      "score" : 19
+    },
+    "wqKMC4CLaVVEaEL9g1qA8kfl1po1" : {
+      "nickname" : 26
+    }
+  }
+}
