@@ -1,0 +1,13 @@
+@import 'layout';
+
+/**
+  *  Panels
+  */
+
+.panel {
+  background: #FFF;
+  border-radius: 3px;
+  border: 1px solid #DEDEDE;
+  padding: $spacing-base;
+  margin-bottom: $spacing-base;
+}

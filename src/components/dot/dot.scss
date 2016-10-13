@@ -1,0 +1,19 @@
+@import '~commons/styles/colors';
+
+.dot {
+  height: 16px;
+  width: 16px;
+  line-height: 1;
+  border-radius: 8px;
+  display: inline-block;
+  vertical-align: middle;
+  &--red {
+    background-color: $bittersweet-color;
+  }
+  &--green {
+    background-color: $emerald-color;
+  }
+  &--yellow {
+    background-color: $dandelion-color;
+  }
+}

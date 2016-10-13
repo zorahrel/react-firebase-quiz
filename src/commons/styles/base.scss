@@ -1,0 +1,21 @@
+/**
+ *  Base
+ */
+
+:global {
+  *, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+  .clearfix:before, .clearfix:after { display: table;  content: ''; }
+  .clearfix:after { clear: both; }
+
+  .valign-wrapper { min-height: 100vh }
+
+  .container { margin: 30px auto 50px }
+
+  @import '_typography.scss';
+  @import '_panels';
+  @import '_rows';
+  @import '_spacings';
+  @import '_tables.scss';
+  @import '_widths.scss';
+  @import '_grids.scss';
+}

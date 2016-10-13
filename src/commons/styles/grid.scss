@@ -1,0 +1,150 @@
+/**
+ *  Grid
+ */
+
+@mixin grid( $colSpan, $colunms: $grid-columns, $gutter: $grid-gutter, $align: left, $offset: 0 ) {
+
+  /*
+    Check if $colSpan is a valid integer number then process the parameters
+    passed to the grid() mixin.
+  */
+  @if type-of( $colSpan ) == 'number' and round( $colSpan ) == $colSpan {
+
+    box-sizing: border-box;
+
+    // Variables operator
+    $initColWidth: ( $colSpan * 100 ) / $colunms;
+    $newOffset: ( $offset * 100 ) / $colunms;
+
+    /*
+      Check if $align is set to left (default) and make element floating
+      to the left
+    */
+    @if $align == left {
+      float: left;
+
+      /*
+        If $grid-use-gutters is set to false (true by default) set the
+        element width based on the $initColWidth process result.
+      */
+      @if $grid-use-gutters == false {
+        width: $initColWidth + unquote("%");
+      }
+
+      /*
+        Check if not 0 $offset is passed as argument and then if $gutter is 0
+        set the left (based on direction) margin as offset.
+      */
+      @if $offset != 0 and $gutter == 0 {
+        margin-left: $newOffset + unquote("%");
+      }
+
+      /*
+        If $offset and $gutter aren't 0 set the left offset by adding the gutter
+      */
+      @else if $offset != 0 and $gutter != 0 {
+        margin: 0 $gutter 0 calc( #{ $newOffset }% + #{ $gutter } );
+      }
+    }
+
+    /*
+      Check if $align is set to right and make element floating
+      to the right
+    */
+    @else if $align == right {
+      float: right;
+
+      /*
+        If $grid-use-gutters is set to false (true by default) set the
+        element width based on the $initColWidth process result.
+      */
+      @if $grid-use-gutters == false {
+        width: $initColWidth + unquote("%");
+      }
+
+      /*
+        Check if not 0 $offset is passed as argument and then if $gutter is 0
+        set the right (based on direction) margin as offset.
+      */
+      @if $offset != 0 and $gutter == 0 {
+        margin-right: $newOffset + unquote("%");
+      }
+
+      /*
+        If $offset and $gutter aren't set to 0 put the right offset by adding the gutter
+      */
+      @else if $offset != 0 and $gutter != 0 {
+        margin: 0 calc( #{ $newOffset }% + #{ $gutter }) 0 $gutter;
+      }
+    }
+
+    /*
+      Check if $align is set to center and make element standing to the center
+      of is parent
+    */
+    @else if $align == center {
+      margin: 0 auto;
+
+      /*
+        If $grid-use-gutters is false calculate the width based on $columns argument
+      */
+      @if $grid-use-gutters == false {
+        width: $initColWidth + unquote("%");
+      }
+    }
+
+    /*
+      If no additional argument is passed set the default grid style
+    */
+    @else {
+      float: left;
+
+      /*
+        If $grid-use-gutters is false calculate the width based on $columns argument
+      */
+      @if $grid-use-gutters == false {
+        width: $initColWidth + unquote("%");
+      }
+    }
+
+    /*
+      If $grid-use-gutters is true then calculate the default new width and left-margin
+      based on $columns and $colSpan
+    */
+    @if $grid-use-gutters == true {
+      $newGutter: $gutter / ( $colunms / $colSpan );
+
+      /*
+        Check if the $gutter have a % unit
+      */
+      @if is-number( $gutter ) and unit( $gutter ) == '%' {
+        width: ($initColWidth - $gutter ) - $newGutter;
+
+        @if $offset == 0 {
+          margin: 0 0 0 $gutter;
+        }
+      }
+
+      /*
+        If the $gutter doesn't have a % unit
+      */
+      @else {
+        width: calc( #{ $initColWidth }% - #{ $gutter } - #{ $newGutter } );
+
+        @if $offset == 0 {
+          margin: 0 0 0 $gutter;
+        }
+      }
+    }
+  }
+
+  /*
+    If the first argument ($colSpan) is set to 'none' remove
+    all grid style and floatings
+  */
+  @else if $colSpan == none {
+    float: none;
+    width: auto;
+    margin: auto;
+  }
+}

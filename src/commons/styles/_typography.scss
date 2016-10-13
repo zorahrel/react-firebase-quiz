@@ -1,0 +1,63 @@
+@import 'colors';
+@import 'fonts';
+
+/**
+ *  Base
+ */
+
+body {
+  color: $body-color;
+  font-weight: 300;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Titles
+
+h1, h2, h3 {
+  color: $titles-color;
+  font-weight: normal;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+// Generic
+
+.large {
+  color: $large-color;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+small {
+  vertical-align: middle;
+  color: $small-color;
+  font-size: 13px;
+  .gray {
+    color: $gray-dark-color;
+  }
+}
+
+a {
+  cursor: pointer;
+}
+
+// Text align
+
+.text-left { text-align: left }
+.text-center { text-align: center }
+.text-justify { text-align: justify }
+.text-right { text-align: right }

@@ -1,0 +1,79 @@
+@import 'layout';
+
+/**
+  * Grid containers
+  * 1. Remove default styles in case `.grid` is on a <ul> or <ol> element.
+  * 2. Default gutter width.
+  * 3. Hack to remove `inline-block` whitespace. This causes some issues on pre-
+  *    Jellybean and Jellybean versions of Android
+  *
+  *    @link http://cbrac.co/1xh3hs0
+  *    @link http://cbrac.co/16xcjcl
+  */
+
+ul.grid, ol.grid {
+  list-style: none;                         /* 1 */
+  margin: 0;                                /* 1 */
+  padding: 0;                               /* 1 */
+}
+.grid {
+  margin-left: -$gutter-grid-base;          /* 2 */
+  font-size: 0;                             /* 3 */
+}
+
+/**
+ * Grid items
+ * 1. Remove default styles in case `.grid__item` is on an <li> element.
+ * 2. `.grid__item` elements are 100% width by default.
+ * 3. Default gutter width = @grid--gutter-base.
+ * 4. Ensure `.grid__item` is aligned to the top of its container.
+ * 5. Reset font size to the global default.
+ */
+
+.grid__item {
+  display: inline-block;
+  margin-left: 0;                           /* 1 */
+  padding-left: $gutter-grid-base;          /* 3 */
+  vertical-align: top;                      /* 4 */
+  font-size: 16px;                          /* 5 */
+}
+
+/**
+ * Grid item alignment
+ */
+
+.grid--align-top > .grid__item, .grid--align-top > .row > .grid__item, .grid__item--align-top {
+  vertical-align: top;
+}
+
+.grid--align-middle > .grid__item, .grid--align-middle > .row > .grid__item, .grid__item--align-middle {
+  vertical-align: middle;
+}
+
+.grid--align-bottom > .grid__item, .grid--align-bottom > .row > .grid__item, .grid__item--align-bottom {
+  vertical-align: bottom;
+}
+
+.grid--align-left {
+  text-align: left;
+
+  > .grid__item {
+    text-align: left;
+  }
+}
+
+.grid--align-center {
+  text-align: center;
+
+  > .grid__item {
+    text-align: left;
+  }
+}
+
+.grid--align-right {
+  text-align: right;
+
+  > .grid__item {
+    text-align: left;
+  }
+}

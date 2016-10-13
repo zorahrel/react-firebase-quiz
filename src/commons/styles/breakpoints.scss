@@ -1,0 +1,27 @@
+/**
+ *   Breakpoints
+ */
+
+$breakpoints: (xs, sm, md, lg, xl);
+$breakpoints-sizes: (
+  xs-min: '', xs-max: 543px,
+  sm-min: 544px, sm-max: 767px,
+  md-min: 768px, md-max: 991px,
+  lg-min: 992px, lg-max: 1199px,
+  xl-min: 1200px, xl-max: '');
+
+@mixin breakpoint($size) {
+  @if $size == '' {
+    @content;
+  } @else {
+    $min-width: map-get($breakpoints-sizes, $size + unquote('-min'));
+    $max-width: map-get($breakpoints-sizes, $size + unquote('-max'));
+    @if $size == xs {
+     @media (max-width: $max-width) { @content; }
+    } @else if $size == xl {
+       @media (min-width: $min-width) { @content; }
+    } @else {
+       @media (min-width: $min-width) and (max-width: $max-width) { @content; }
+    }
+  }
+}
