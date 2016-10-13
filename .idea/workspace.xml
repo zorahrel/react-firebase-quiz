@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f965ece-2618-413d-9760-ef9325852e82" name="Default" comment="" />
+    <list default="true" id="5f965ece-2618-413d-9760-ef9325852e82" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/firebase.rules" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="react-redux--atomic-boilerplate.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -69,11 +72,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="16">
               <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="firebase.rules" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/firebase.rules">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -94,16 +107,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="376">
               <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -145,6 +148,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="XSLT Stylesheet" />
       </list>
     </option>
   </component>
@@ -187,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/commons/styles/base.scss" />
         <option value="$PROJECT_DIR$/src/components/dashboard-user-list/dashboard-user-list.jsx" />
         <option value="$PROJECT_DIR$/src/containers/dashboard/dashboard.jsx" />
+        <option value="$PROJECT_DIR$/firebase.rules" />
       </list>
     </option>
   </component>
@@ -678,12 +683,12 @@
       <workItem from="1476085255734" duration="2819000" />
       <workItem from="1476117550037" duration="8171000" />
       <workItem from="1476173872378" duration="15687000" />
-      <workItem from="1476267968122" duration="55324000" />
+      <workItem from="1476267968122" duration="55940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85906000" />
+    <option name="totallyTimeSpent" value="86522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="873" extended-state="6" />
@@ -734,7 +739,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hi.js" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
@@ -1171,6 +1175,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firebase.rules">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
           <folding />
         </state>
       </provider>

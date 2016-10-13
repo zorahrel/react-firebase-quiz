@@ -1,0 +1,40 @@
+{
+  "rules": {
+    ".read": "auth.uid != null",
+    ".write": "auth.uid == 'XF31dpU7RRQfOA1euqTqk1p9AEu1'",  // User admin ID
+    "nicknames": {
+    	".read": true,
+    	".write": false
+    },
+    "quizzes": {
+      "$quiz": {
+        "questions": {
+          "$question": {
+            "answers": {
+              ".read": "data.parent().child('started').val()==true"
+            },
+            "correctAnswer": {
+              ".read": "data.parent().child('remainingTime').val()==0"
+            },
+            "userAnswers": {
+              "$userAnswer": {
+                ".read": "$userAnswer==auth.uid",
+                ".write": "$userAnswer==auth.uid"
+              }
+            }
+          }
+        },
+        "users": {
+          "$user": {
+          ".write": "newData.val()==auth.uid"
+          }
+      	}
+      }
+    },
+  	"users": {
+  		"$user_id": {
+    		".write": "$user_id === auth.uid"
+    	}
+		}
+  }
+}
