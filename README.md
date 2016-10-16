@@ -41,4 +41,3 @@ npm run build
 ## Play the Quiz
 
 User can access the app through `http://YOUR-INNER-IP:8080/`, admin can instead access through `http://YOUR-INNER-IP:8080/dashboard`
-====================================================================================================================================
