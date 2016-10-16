@@ -1,17 +1,14 @@
-# React-Redux Atomic Boilerplate
+# DevFest React-Firebase Sample App.
 
-This is an Atomic starter project that let you develop in a module-oriented way.
-
-You will have support for:
-- ES6 Syntax, with JSX and Spread Operator support
-- Webpack Development Server with Hot Loader
-- ESLint with React and JSX support
-- CSS Modules with Sass support
-- Mocha testing with EnzyMe, Sinon and Chai
-- Isomorphic Fetch with a some fetch methods presets
-- React and Redux DevTools ready
+I made this Quiz demo for the GDG Campania DevFest. I'll improve it with next dev events.
+This small app is using my [react-redux-atomic-boilerplate](https://github.com/zorahrel/react-redux-atomic-boilerplate).
 
 ## Install dependencies
+
+Firstly get your [Firebase free account](https://firebase.google.com/console/), create a project, open your console and create a user in **Develop** / **Auth** section.
+Then you will have to paste the Rules that you can find in `firebase.rules` file and substitute my Project's admin user UID with yours.
+
+Now set the right configuration array in `app/index.jsx`. You can generate your own clicking "Web configuration" on the top-right side in your console.
 
 Make sure you have installed Node and cloned this repo than install global npm packages with:
 
@@ -41,5 +38,7 @@ Build the app inside the `/public` folder.
 npm run build
 ```
 
-Open the dev server at [http://localhost:8080/](http://localhost:8080/) and enjoy.
-=======
+## Play the Quiz
+
+User can access the app through `http://YOUR-INNER-IP:8080/`, admin can instead access through `http://YOUR-INNER-IP:8080/dashboard`
+====================================================================================================================================
