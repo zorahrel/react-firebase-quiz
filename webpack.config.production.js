@@ -10,7 +10,12 @@ config.plugins.push(
     }
   }),
   new webpack.optimize.DedupePlugin(),
-  new ExtractTextPlugin('app.css', { allChunks: false })
+  new ExtractTextPlugin('app.css', { allChunks: false }),
+  new webpack.DefinePlugin({
+    "process.env": {
+      NODE_ENV: JSON.stringify("production")
+    }
+  })
 );
 
 config.module.loaders.push({
