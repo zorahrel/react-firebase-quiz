@@ -1,6 +1,6 @@
-# DevFest React-Firebase Sample App.
+# React-Firebase Quiz App.
 
-I made this Quiz demo for the GDG Campania DevFest. I'll improve it with next dev events.
+I made this Quiz demo for the GDG Campania DevFest and Christmas Hack Party. I'll improve it with next dev events.
 This small app is using my [react-redux-atomic-boilerplate](https://github.com/zorahrel/react-redux-atomic-boilerplate).
 
 ## Install dependencies
