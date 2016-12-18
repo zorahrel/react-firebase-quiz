@@ -1,7 +1,7 @@
 {
-  "name": "DevFestQuiz",
+  "name": "react-firebase-quiz",
   "version": "1.0.0",
-  "description": "A nice React-Firebase sample app.",
+  "description": "A nice React-Firebase Quiz app.",
   "main": "./src/index.jsx",
   "scripts": {
     "clean": "rm -rf public/*",
@@ -9,6 +9,9 @@
     "build": "NODE_ENV='production' webpack -p --config webpack.config.production.js"
   },
   "author": "Zorahrel <hello@zorahrel.com> (http://zorahrel.com/)",
+  "repository": {
+    "url": "https://github.com/zorahrel/react-firebase-quiz"
+  },
   "license": "ISC",
   "private": false,
   "devDependencies": {
