@@ -1,8 +1,11 @@
 import React from 'react';
 
-const UserList = ({ users = {}, nicknames, onUserDelete, onQuizScoreReset }) => (
+const UserList = ({ users = {}, nicknames, onUserDelete, onQuizScoreReset, onQuizUsersReset }) => (
   <div>
-    <div className="text-left" style={{marginBottom: "10px"}}><b>{Object.keys(users).length}</b> utenti / <a onClick={onQuizScoreReset.bind(this)}>score reset</a></div>
+    <div className="text-left" style={{marginBottom: "10px"}}>
+      <b>
+        {Object.keys(users).length}</b> utenti / <a onClick={onQuizScoreReset.bind(this)}>score reset</a> / <a onClick={onQuizUsersReset.bind(this)}>users reset</a>
+      </div>
     <table>
       <thead>
       <tr>

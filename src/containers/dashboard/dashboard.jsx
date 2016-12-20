@@ -109,9 +109,9 @@ class Dashboard extends React.Component {
         this.usersRef.child(userId).update(updates);
       })
     });
-    this.usersRef.orderByChild('score').limitToLast(1).once('value', snapshop => {
+    this.usersRef.orderByChild('score').limitToLast(1).once('value', snapshot => {
       let updates = {};
-      updates['winner'] = Object.keys(snapshop.val())[0];
+      updates['winner'] = Object.keys(snapshot.val())[0];
       this.quizzesRef.child(quizId).update(updates);
     });
   }
@@ -167,6 +167,15 @@ class Dashboard extends React.Component {
     Object.keys(this.state.users).map((userId) => {
       this.usersRef.child(userId).child('correctAnswers').remove();
       this.usersRef.child(userId).child('wrongAnswers').remove();
+      this.usersRef.child(userId).child('score').remove();
+    })
+    Object.keys(this.state.quizzes).map((quizId) => {
+      this.quizzesRef.child(quizId).child('winner').remove();
+    });
+  }
+  handleQuizUsersReset() {
+    Object.keys(this.state.users).map((userId) => {
+      this.usersRef.child(userId).remove();
     })
   }
 
@@ -178,6 +187,9 @@ class Dashboard extends React.Component {
             <Login onSubmit={this.handleLogin.bind(this)} />
         </div> }
         { logged && <div>
+          <div style={{marginBottom: "30px"}}>
+
+          </div>
           <div style={{marginBottom: "30px"}}>
             <QuizList
               quizzes={quizzes || {}}
@@ -197,10 +209,16 @@ class Dashboard extends React.Component {
             />
           </div>
           <div style={{marginBottom: "30px"}}>
-            <UserList users={users || {}} nicknames={nicknames || {}} onUserDelete={this.handleUserDelete.bind(this)} onQuizScoreReset={this.handleQuizScoreReset.bind(this)} />
+            <UserList
+              users={users || {}}
+              nicknames={nicknames || {}}
+              onUserDelete={this.handleUserDelete.bind(this)}
+              onQuizScoreReset={this.handleQuizScoreReset.bind(this)}
+              onQuizUsersReset={this.handleQuizUsersReset.bind(this)}
+            />
           </div>
           <div className="text-right"><button className="waves-effect waves-light btn" onClick={this.handleLogout.bind(this)}>Logout</button></div>
-          <div className="fixed-action-btn"><img src={GDGlogo} className="responsive-img" width="100px"/></div>
+          <div className="fixed-action-btn"><img src={logoSrc} className="responsive-img" width="100px"/></div>
         </div> }
       </div>
     );

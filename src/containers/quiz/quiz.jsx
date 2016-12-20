@@ -158,7 +158,7 @@ class Home extends React.Component {
     const { quiz, user, users, quizzes, nicknames } = this.state;
     return(
       <div className="container valign text-center">
-        { !user && <div><img src={logoSrc} className="responsive-img" width="620px"/><p style={{margin: "20px auto 30px", maxWidth: "400px"}}>Partecipando al Quiz accetti di essere abbinato ad un soprannome napoletano, utile ad identificarti e farti mantenere un anonimato molto comodo nel caso in cui il punteggio risultante sia molto basso.</p><button className="waves-effect waves-light btn-large" onClick={this.handleLogin.bind(this)}>Join the Quiz</button></div> }
+        { !user && <div><img src={logoSrc} className="responsive-img" width="400px"/><p style={{margin: "20px auto 30px", maxWidth: "400px"}}>Partecipando al Quiz accetti di essere abbinato ad un soprannome napoletano, utile ad identificarti e farti mantenere un anonimato molto comodo nel caso in cui il punteggio risultante sia molto basso.</p><button className="waves-effect waves-light btn-large" onClick={this.handleLogin.bind(this)}>Join the Quiz</button></div> }
         { user &&
          <div>
            { user.nickname != undefined && !!nicknames && <h1><b>{nicknames[user.nickname]} <small>({user.uid.toString().substr(0,5)})</small></b></h1> }

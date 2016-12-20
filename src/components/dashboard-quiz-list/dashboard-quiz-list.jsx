@@ -20,8 +20,6 @@ const QuizList = ({
     <table>
       <thead>
       <tr>
-        <th>Id</th>
-        <th>Name</th>
         <th>Questions</th>
         <th>Winner</th>
         <th className="text-right">Actions</th>
@@ -32,8 +30,6 @@ const QuizList = ({
       { quizzes && quizzes.length > 0 && quizzes.map((quiz, quizId) => {
         return(
           <tr key={quizId}>
-            <td>{quizId}</td>
-            <td>{quiz.name}</td>
             <td>
               <table className="bordered">
                 <tbody>
