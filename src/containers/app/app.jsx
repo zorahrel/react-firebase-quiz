@@ -3,6 +3,7 @@ import firebase from 'firebase';
 
 import 'commons/styles/normalize.scss';
 import 'commons/styles/base.scss';
+import 'commons/styles/snow.scss';
 
 const config = {
     apiKey: "AIzaSyD2Ydn0bRrD2jdgwYjK_CLXKGFLO-2I8zc",
