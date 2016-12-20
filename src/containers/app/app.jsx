@@ -5,11 +5,11 @@ import 'commons/styles/normalize.scss';
 import 'commons/styles/base.scss';
 
 const config = {
-  apiKey: "AIzaSyBY9XjnqMRtmwe2JZvg9hoMynzhsNUGYeo",
-  authDomain: "gdg-devfest-5eabc.firebaseapp.com",
-  databaseURL: "https://gdg-devfest-5eabc.firebaseio.com",
-  storageBucket: "gdg-devfest-5eabc.appspot.com",
-  messagingSenderId: "530116530462"
+    apiKey: "AIzaSyD2Ydn0bRrD2jdgwYjK_CLXKGFLO-2I8zc",
+    authDomain: "christmas-hack-party.firebaseapp.com",
+    databaseURL: "https://christmas-hack-party.firebaseio.com",
+    storageBucket: "christmas-hack-party.appspot.com",
+    messagingSenderId: "381679773716"
 };
 
 class App extends React.Component {
