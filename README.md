@@ -8,7 +8,7 @@ This small app is using my [react-redux-atomic-boilerplate](https://github.com/z
 Firstly get your [Firebase free account](https://firebase.google.com/console/), create a project, open your console and create a user in **Develop** / **Auth** section.
 Then you will have to paste the Rules that you can find in `firebase.rules` file and substitute my Project's admin user UID with yours.
 
-Now set the right configuration array in `app/index.jsx`. You can generate your own clicking "Web configuration" on the top-right side in your console.
+Now set the right configuration array in `app/containers/app.jsx`. You can generate your own clicking "Web configuration" on the top-right side in your console.
 
 Make sure you have installed Node and cloned this repo than install global npm packages with:
 
