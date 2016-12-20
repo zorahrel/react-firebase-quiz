@@ -1,7 +1,7 @@
 import React from 'react';
 import { auth, database } from 'firebase';
 
-import GDGlogo from 'commons/images/gdgcampania.png';
+import logoSrc from 'commons/images/012_xmas_logo.png';
 import Login from 'components/login/login';
 import UserList from 'components/dashboard-user-list/dashboard-user-list';
 import QuizList from 'components/dashboard-quiz-list/dashboard-quiz-list';
@@ -174,7 +174,7 @@ class Dashboard extends React.Component {
     let { logged, users, quizzes, nicknames } = this.state;
     return(
       <div className="container valign text-center">
-        { !logged && <div><img src={GDGlogo} className="responsive-img" width="400px" style={{margin: "0 auto 30px"}}/>
+        { !logged && <div><img src={logoSrc} className="responsive-img" width="290px" style={{margin: "0 auto 30px"}}/>
             <Login onSubmit={this.handleLogin.bind(this)} />
         </div> }
         { logged && <div>
