@@ -4,7 +4,7 @@ import { auth, database, Promise } from 'firebase';
 import QuizList from 'components/quiz-list/quiz-list';
 import Quiz from 'components/quiz/quiz';
 
-import GDGlogo from 'commons/images/gdgcampania.png';
+import logoSrc from 'commons/images/012_xmas_logo.png';
 
 class Home extends React.Component {
   constructor() {
@@ -52,6 +52,7 @@ class Home extends React.Component {
         // User state
         const db = database();
 
+        quiz.db = db.ref();
         quiz.usersRef = db.ref('users');
         quiz.nicknamesRef = db.ref('nicknames');
         quiz.quizzesRef = db.ref('quizzes');
@@ -59,37 +60,16 @@ class Home extends React.Component {
 
         let nicknames = [];
         let users = [];
+        let quizzes = [];
 
-        let nicknamePromise = quiz.nicknamesRef.once('value', snapshot => {
-          nicknames = snapshot.val() || [];
+        const updateLocal = (snapshot) => {
+          nicknames = snapshot.val().nicknames || [];
           quiz.setState({ nicknames });
-        });
 
-        let usersPromise = quiz.usersRef.once('value', snapshot => {
-          users = snapshot.val() || {};
+          users = snapshot.val().users || {};
           quiz.setState({ users });
-        });
 
-        Promise.all([nicknamePromise, usersPromise]).then(() => {
-          if(!users[user.uid] || users[user.uid].nickname == undefined) {
-            user.nickname = this.getFreeNickname(nicknames, users);
-            quiz.userRef.set({ nickname: user.nickname });
-            quiz.setState({ user });
-          } else {
-            quiz.setState({ user: { ...this.state.user, ...users[user.uid] } });
-          }
-          quiz.nicknamesRef.on('value', snapshot => {
-            nicknames = snapshot.val() || [];
-            quiz.setState({ nicknames });
-          });
-          quiz.usersRef.on('value', snapshot => {
-            users = snapshot.val() || {};
-            quiz.setState({ users });
-          });
-        });
-
-        quiz.quizzesRef.on('value', snapshot => {
-          let quizzes = snapshot.val() || [];
+          quizzes = snapshot.val().quizzes || [];
           quiz.setState({ quizzes });
           quizzes.map((quiz, quizId) => {
             Object.keys(quiz.users || {}).map(userKey => {
@@ -98,6 +78,18 @@ class Home extends React.Component {
               }
             })
           })
+        }
+
+        let quizPromise = quiz.db.once('value', updateLocal)
+        .then(() => {
+          if(!users[user.uid] || users[user.uid].nickname == undefined) {
+            user.nickname = this.getFreeNickname(nicknames, users);
+            quiz.userRef.set({ nickname: user.nickname });
+            quiz.setState({ user });
+          } else {
+            quiz.setState({ user: { ...this.state.user, ...users[user.uid] } });
+          }
+          quiz.db.on('value', updateLocal);
         });
 
       } else {
@@ -151,7 +143,7 @@ class Home extends React.Component {
     database().ref(`quizzes/${this.state.quiz}/questions/${question}/userAnswers/${this.state.user.uid}`).set(answer);
   }
 
-  gdgLogoSecret(item) {
+  logoSecret(item) {
     var that = this;
     if(item) {
       item.addEventListener('click', function (evt) {
@@ -166,7 +158,7 @@ class Home extends React.Component {
     const { quiz, user, users, quizzes, nicknames } = this.state;
     return(
       <div className="container valign text-center">
-        { !user && <div><img src={GDGlogo} className="responsive-img" width="620px"/><p style={{margin: "20px auto 30px", maxWidth: "400px"}}>Partecipando al Quiz accetti di essere abbinato ad un soprannome napoletano, utile ad identificarti e farti mantenere un anonimato molto comodo nel caso in cui il punteggio risultante sia molto basso.</p><button className="waves-effect waves-light btn-large" onClick={this.handleLogin.bind(this)}>Join the Quiz</button></div> }
+        { !user && <div><img src={logoSrc} className="responsive-img" width="620px"/><p style={{margin: "20px auto 30px", maxWidth: "400px"}}>Partecipando al Quiz accetti di essere abbinato ad un soprannome napoletano, utile ad identificarti e farti mantenere un anonimato molto comodo nel caso in cui il punteggio risultante sia molto basso.</p><button className="waves-effect waves-light btn-large" onClick={this.handleLogin.bind(this)}>Join the Quiz</button></div> }
         { user &&
          <div>
            { user.nickname != undefined && !!nicknames && <h1><b>{nicknames[user.nickname]} <small>({user.uid.toString().substr(0,5)})</small></b></h1> }
@@ -176,7 +168,7 @@ class Home extends React.Component {
            <div style={{margin: "20px auto 30px", maxWidth: "400px"}}>
              <p>Il Quiz consiste in 10 domande su argomenti di Informatica e Tecnologia.</p>
              <p>Altri <b>{Object.keys(users).length} connessi</b>.</p>
-             <div className="fixed-action-btn" ref={this.gdgLogoSecret.bind(this)}><img src={GDGlogo} className="responsive-img" width="100px"/></div>
+             <div className="fixed-action-btn" ref={this.logoSecret.bind(this)}><img src={logoSrc} className="responsive-img" width="100px"/></div>
            </div>
          </div> }
         { user && <button className="hide" onClick={this.handleLogout.bind(this)}>Logout</button> }
