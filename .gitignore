@@ -1,6 +1,7 @@
 ### Project caches ###
 public/*
 node_modules
+.idea
 .tmp
 
 # Debug log
