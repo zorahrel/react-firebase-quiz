@@ -42,7 +42,7 @@ const QuizList = ({
                        </td>
                        <td>
                          <a onClick={onQuizQuestionTimerStart.bind(this, quizId, questionId, question.remainingTime)}>
-                           <i className="material-icons" style={{verticalAlign: "middle"}}>alarm_on</i>
+                           <i className="material-icons" style={{verticalAlign: "middle", lineHeight: "21px", marginRight: "3px"}}>alarm_on</i>
                          </a>
                          {question.remainingTime}
                        </td>
