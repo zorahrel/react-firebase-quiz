@@ -60,7 +60,7 @@ const QuizList = ({
               </table>
             </td>
             <td>
-              <b>{nicknames[users[quiz.winner].nickname]} <small>({quiz.winner.toString().substr(0,5)})</small></b>
+              {quiz.winner && <b>{nicknames[users[quiz.winner].nickname]} <small>({quiz.winner.toString().substr(0,5)})</small></b>}
             </td>
             <td className="text-right">
               <div>
