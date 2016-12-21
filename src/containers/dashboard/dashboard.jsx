@@ -189,6 +189,9 @@ class Dashboard extends React.Component {
     Object.keys(this.state.users).map((userId) => {
       this.usersRef.child(userId).remove();
     })
+    Object.keys(this.state.quizzes).map((quizId) => {
+        this.quizzesRef.child(quizId).child('users').remove();
+    });
   }
 
   render() {
