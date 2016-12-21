@@ -80,14 +80,12 @@ class Dashboard extends React.Component {
   }
   handleQuizResults(quizId) {
     this.state.quizzes[quizId].questions.map((question, questionId) => {
-      console.log(question)
       question.userAnswers && Object.keys(question.userAnswers).map(userId => {
         if(question.userAnswers[userId] == question.correctAnwser) {
           let updates = {};
           updates['correctAnswers/'+questionId] = true;
           this.usersRef.child(userId).update(updates);
         } else {
-          console.log('err')
           let updates = {};
           updates['wrongAnswers/'+questionId] = true;
           this.usersRef.child(userId).update(updates);
@@ -98,10 +96,10 @@ class Dashboard extends React.Component {
       let users = snapshot.val();
       Object.keys(users).map((userId) => {
         let score = 0;
-        users[userId].correctAnswers && users[userId].correctAnswers.map(() => {
+        users[userId].correctAnswers && Object.keys(users[userId].correctAnswers).map(() => {
           score +=3;
         });
-        users[userId].wrongAnswers && users[userId].wrongAnswers.map(() => {
+        users[userId].wrongAnswers && Object.keys(users[userId].wrongAnswers).map(() => {
           score -=0.5;
         });
         let updates = {};
