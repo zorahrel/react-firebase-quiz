@@ -2,6 +2,7 @@ import React from 'react';
 
 const QuizList = ({
   quizzes,
+  users,
   nicknames,
   onQuizStart,
   onQuizStop,
@@ -59,7 +60,7 @@ const QuizList = ({
               </table>
             </td>
             <td>
-              {quiz.winner}
+              <b>{nicknames[users[quiz.winner].nickname]} <small>({quiz.winner.toString().substr(0,5)})</small></b>
             </td>
             <td className="text-right">
               <div>

@@ -203,9 +203,6 @@ class Dashboard extends React.Component {
         </div> }
         { logged && <div>
           <div style={{marginBottom: "30px"}}>
-
-          </div>
-          <div style={{marginBottom: "30px"}}>
             <QuizList
               quizzes={quizzes || {}}
               users={users || {}}
