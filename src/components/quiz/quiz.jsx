@@ -47,7 +47,7 @@ const Question = ({ userId, question, onAnswerSelect }) => {
     <div>
       { (!question.started || question.remainingTime==0) && <h3>Preparati per la prossima domanda!</h3> }
       { question.started && question.remainingTime>0 && <div style={{paddingTop: "20px"}}>
-        <div><i className="material-icons" style={{verticalAlign: "text-bottom", fontSize: "1.2em"}}>info_outline</i> <b>{ question.question }</b></div>
+        <div><i className="material-icons" style={{verticalAlign: "text-bottom", fontSize: "1.2em"}}>info_outline</i> <span dangerouslySetInnerHTML={{__html: question.question}}/></div>
         <div className="collection" style={{margin: "12px auto 10px", maxWidth: "400px"}}>{ Object.keys(question.answers).map((answerId) => {
           const answerClasses = classNames.bind(styles)(
             'collection-item',
