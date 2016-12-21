@@ -13,7 +13,8 @@ const QuizList = ({
   onQuizQuestionSelect,
   onQuizQuestionStart,
   onQuizQuestionStop,
-  onQuizQuestionTimerStart
+  onQuizQuestionTimerStart,
+  onQuizQuestionTimerReset
 }) => (
   <div>
     <div className="text-left" style={{marginBottom: "10px"}}><b>{quizzes.length}</b> quiz</div>
@@ -44,7 +45,7 @@ const QuizList = ({
                          <a onClick={onQuizQuestionTimerStart.bind(this, quizId, questionId, question.remainingTime)}>
                            <i className="material-icons" style={{verticalAlign: "middle", lineHeight: "21px", marginRight: "3px"}}>alarm_on</i>
                          </a>
-                         {question.remainingTime}
+                         {question.remainingTime} / <a onClick={onQuizQuestionTimerReset.bind(this, quizId, questionId)}>reset</a>
                        </td>
                        { question.userAnswers && <td>{ Object.keys(question.userAnswers).length } risp.</td>}
                        <td>

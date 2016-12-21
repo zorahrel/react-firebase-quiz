@@ -163,6 +163,11 @@ class Dashboard extends React.Component {
     };
     timerUpdate();
   }
+  handleQuizQuestionTimerReset(quizId, questionId) {
+    let updates = {};
+    updates[`questions/${questionId}/remainingTime`] = 100;
+    this.quizzesRef.child(quizId).update(updates);
+  }
   handleQuizScoreReset() {
     let usersRef = this.usersRef;
     Object.keys(this.state.users).map((userId) => {
@@ -213,6 +218,7 @@ class Dashboard extends React.Component {
               onQuizDone={this.handleQuizDone.bind(this)}
               onQuizUndone={this.handleQuizUndone.bind(this)}
               onQuizQuestionTimerStart={this.handleQuizQuestionTimerStart.bind(this)}
+              onQuizQuestionTimerReset={this.handleQuizQuestionTimerReset.bind(this)}
             />
           </div>
           <div style={{marginBottom: "30px"}}>
