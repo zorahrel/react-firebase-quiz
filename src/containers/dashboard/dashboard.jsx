@@ -164,13 +164,20 @@ class Dashboard extends React.Component {
     timerUpdate();
   }
   handleQuizScoreReset() {
+    let usersRef = this.usersRef;
     Object.keys(this.state.users).map((userId) => {
-      this.usersRef.child(userId).child('correctAnswers').remove();
-      this.usersRef.child(userId).child('wrongAnswers').remove();
-      this.usersRef.child(userId).child('score').remove();
+      usersRef.child(userId).child('correctAnswers').remove();
+      usersRef.child(userId).child('wrongAnswers').remove();
+      usersRef.child(userId).child('score').remove();
     })
+    let quizzesRef = this.quizzesRef;
     Object.keys(this.state.quizzes).map((quizId) => {
-      this.quizzesRef.child(quizId).child('winner').remove();
+      quizzesRef.child(quizId).child('winner').remove();
+
+      Object.keys(this.state.quizzes[quizId].questions).map((questionId) => {
+        quizzesRef.child(quizId).child('questions').child(questionId).child('userAnswers').remove();
+      });
+
     });
   }
   handleQuizUsersReset() {
